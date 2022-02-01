@@ -9,3 +9,5 @@ A quick open-source password generator tool.
 </tr>
 </tbody>
 </table>
+<h1 style="text-align: center;"><span style="color: #ffffff;"><a style="color: #ffffff;" href="https://coffee-angel.xyz/gen/">Click here if you want to use it online</a></span></h1>
+<p><span style="color: #ffffff;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://coffee-angel.000webhostapp.com/coffeeangel.png" width="64" height="55" /></span></p>
