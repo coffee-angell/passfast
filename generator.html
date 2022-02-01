@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>passfast</title>
+    <link rel="stylesheet" href="design.css" />
+    <script src="script.js" defer></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form id="passwordGeneratorForm">
+      <div class="container">
+        <h2>passfast</h2>
+        <div class="result__container">
+        <span id="result"></span>
+        <button id="copy">copy</button>
+      </div>
+      <div class="options">
+        <div class="option">
+          <label>Length</label>
+          <input type="number" id="length" min="4" max="20" value="10">
+        </div>
+        <div class="option">
+          <label>Uppercase letters</label>
+          <input type="checkbox" id="uppercase" checked>
+        </div>
+        <div class="option">
+          <label>Numbers</label>
+          <input type="checkbox" id="numbers" checked>
+        </div>
+        <div class="option">
+          <label>Symbols</label>
+          <input type="checkbox" id="symbols" checked>
+        </div>
+      </div>
+      <button class="btn" id="generate" type="submit">Generate Password</button>
+	  <script>
+       document.write(unescape('%3Cp%20style%3D%22text-align%3A%20center%3B%22%3E%3Cspan%20style%3D%22color%3A%20%23ffffff%3B%22%3E%3Ca%20style%3D%22color%3A%20%23ffffff%3B%22%20href%3D%22https%3A//coffee-angel.xyz%22%3E%3Cstrong%3ECoffeeAngel%20%26copy%3B%uFE0F%202022%3C/strong%3E%3C/a%3E%3C/span%3E%3C/p%3E%0A%3Cp%20style%3D%22text-align%3A%20center%3B%22%3E%3Cspan%20style%3D%22color%3A%20%23ffffff%3B%22%3E%3Ca%20style%3D%22color%3A%20%23ffffff%3B%22%20href%3D%22https%3A//github.com/coffee-angell%22%3E%3Cstrong%3EGithub%3A%20coffee-angell%3C/strong%3E%3C/a%3E%3C/span%3E%3C/p%3E'))
+      </script>
+      </div>
+    </form>
+  </body>
+</html>
